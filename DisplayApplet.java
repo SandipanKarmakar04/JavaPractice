@@ -1,8 +1,8 @@
-import java.applet.Applet;
+// import java.applet.Applet;
 import java.awt.*;
 
 
-public class DisplayApplet extends Applet {
+public class DisplayApplet{
     public void paint(Graphics g) {
         g.setColor(Color.BLUE);
         g.drawString("Hello, Java Applet!", 20, 20);
